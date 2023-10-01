@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <nav class="mb-4">
+        <div class="container-fluid py-2">
+            <div class="row">
+                <div class="col-md-3 d-flex align-items-center">
+                    <a href="#"><i class="fa-brands align fa-facebook fs-1 me-2 text-primary ms-1"></i></a>
+                    <div class="input-group mb-0" style="width: 60%;">
+                        <span
+                            class="input-group-text input-search border-end-0 border-1 shadow-none rounded-pill rounded-end pe-0"
+                            id="basic-addon1"><i class="fa-solid fa-magnifying-glass"
+                                style="color:rgb(87,91,104);"></i></span>
+                        <input type="text"
+                            class="form-control border border-start-0 border-1 bg-gray shadow-none rounded-pill rounded-start py-2"
+                            placeholder="Tìm kiếm trên facebook" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="col-md-6 text-center product ">
+                    <a href="#" class="text-dark"><i class="fa-solid fa-house px-5 py-2 rounded-3 fs-4"></i></a>
+                    <a href="#" class="text-dark"><i class="fa-brands fa-youtube px-5 py-2 rounded-3 fs-4"></i></a>
+                    <a href="#" class="text-dark"><i class="fa-solid fa-store px-5 py-2 rounded-3 fs-4"></i></a>
+                    <a href="#" class="text-dark"><i
+                            class="fa-solid fa-users-between-lines px-5 py-2 rounded-3 fs-4"></i></a>
+                    <a href="#" class="text-dark"><i class="fa-solid fa-gamepad px-5 py-2 rounded-3 fs-4"></i></a>
+                </div>
+
+                <div class="col-md-3 d-flex justify-content-end align-items-center">
+                    <div class="rounded-circle mandates py-2 px-3 align-middle me-2 bg-gray-opa-1">
+                        <a href="#"> <i class="opacity-75 text-dark fa-solid fa-bars fs-5"></i></a>
+                    </div>
+                    <div class="rounded-circle mandates py-2 px-3 align-middle me-2 bg-gray-opa-1">
+                        <a href="#"><i class="opacity-75 text-dark fa-brands fa-facebook-messenger fs-5"></i></a>
+                    </div>
+                    <div class="rounded-circle mandates py-2 px-3 align-middle me-2 bg-gray-opa-1">
+                        <a href="#"><i class="opacity-75 text-dark fa-solid fa-bell fs-5  "></i></a>
+                    </div>
+
+                    <div class="rounded-circle mandates py-2 px-3 align-middle me-2 bg-gray-opa-1 avatar">
+                        <a href="#"> <img
+                                src="https://scontent.fhan20-1.fna.fbcdn.net/v/t39.30808-6/254126749_940952320167144_7907103038249429186_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=mLvoQUVy9_gAX-fdHd9&_nc_ht=scontent.fhan20-1.fna&oh=00_AfARGyNzLFFR2PRcq4nDI7O8O8UpmuP4buAf4j5PCbV7dQ&oe=651B01AC"
+                                alt="" width="100%" height="100%"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="container-fluid my-2">
+                <a href="#" class="text-decoration-none text-dark">
+                    <div class="d-flex align-items-center category rounded py-2" style="width: 90%;">
+                        <div class="rounded-circle mandates py-2 px-3 align-middle me-2 ms-2"
+                            style="background-color: rgb(228,230,235); width: 38px; height: 38px; position: relative; overflow: hidden;">
+                            <img style="position: absolute; left: 0; top:0; scale: 1.2;"
+                                src="https://scontent.fhan20-1.fna.fbcdn.net/v/t39.30808-6/254126749_940952320167144_7907103038249429186_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=mLvoQUVy9_gAX-fdHd9&_nc_ht=scontent.fhan20-1.fna&oh=00_AfARGyNzLFFR2PRcq4nDI7O8O8UpmuP4buAf4j5PCbV7dQ&oe=651B01AC"
+                                alt="" width="100%" height="100%">
+                        </div>
+                        <span><b>Văn Trong</b></span>
+                    </div>
+                </a>
+            </div>
+            <div class="container-fluid my-2">
+                <a href="#" class="text-decoration-none text-dark">
+                    <div class="d-flex align-items-center category rounded py-2" style="width: 90%;">
+                        <i data-visualcompletion="css-img" class="me-2 ms-2"
+                            style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png&quot;); background-position: 0px -304px; background-size: 38px 570px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                        <span><b>Bạn bè</b></span>
+                    </div>
+                </a>
+            </div>
+            <div class="container-fluid my-2">
+                <a href="#" class="text-decoration-none text-dark">
+                    <div class="d-flex align-items-center category rounded py-2" style="width: 90%;">
+                        <i data-visualcompletion="css-img" class="me-2 ms-2"
+                            style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png&quot;); background-position: 0px -190px; background-size: 38px 570px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                        <span><b>Đã lưu</b></span>
+                    </div>
+                </a>
+            </div>
+            <div class="container-fluid my-2">
+                <a href="#" class="text-decoration-none text-dark">
+                    <div class="d-flex align-items-center category rounded py-2" style="width: 90%;">
+                        <i data-visualcompletion="css-img" class="me-2 ms-2"
+                            style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png&quot;); background-position: 0px -38px; background-size: 38px 570px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                        <span><b>Kỷ niệm</b></span>
+                    </div>
+                </a>
+            </div>
+            <div class="container-fluid my-2">
+                <a href="#" class="text-decoration-none text-dark">
+                    <div class="d-flex align-items-center category rounded py-2" style="width: 90%;">
+                        <i data-visualcompletion="css-img" class="me-2 ms-2"
+                            style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png&quot;); background-position: 0px -532px; background-size: 38px 570px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                        <span><b>Video</b></span>
+                    </div>
+                </a>
+            </div>
+            <div class="container-fluid my-2">
+                <a href="#" class="text-decoration-none text-dark">
+                    <div class="d-flex align-items-center category rounded py-2" style="width: 90%;">
+                        <div class="rounded-circle mandates py-1 px-2 align-middle ms-2"
+                            style="background-color: #cccfd34f; border: 1px solid rgba(0, 0, 0, 0.256);">
+                            <i class="fa-solid fa-angle-down fa-md"></i>
+                        </div>
+                        <span class="ms-3"><b>Xem thêm</b></span>
+                    </div>
+                </a>
+            </div>
+            <div class="container-fluid">
+                <hr style="width: 60%;">
+            </div>
+            <div class="container-fluid my-3 d-flex align-items-center">
+                <b class="fs-5">Lối tắt của bạn</b>
+            </div>
+            <a href="#" class="text-decoration-none text-dark">
+                <div class="container-fluid mt-2 mb-2">
+                    <div class="d-flex align-items-center category rounded py-2" style="width: 90%;">
+                        <img class="ms-2"
+                            src="https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/299356209_1098361347742719_8234315233457732505_n.jpg?stp=cp0_dst-jpg_p64x64&_nc_cat=100&ccb=1-7&_nc_sid=3be523&_nc_ohc=FvuQwk2gACEAX-ozS9x&_nc_oc=AQmlji7240yCgFq5Kncz7lp45mW_ORFGYFR4gBpgrC7pcyxMUnNJUJ4Amb_IzMn6nhN8ZgT1Y1Zwft5oNjzJz8n4&_nc_ht=scontent.fhan2-4.fna&oh=00_AfCBzjDKwO3nMDTrXzC47hRtFMCXMwsDDLdjydqXXPEYGw&oe=651D8A25"
+                            width="8%" alt="">
+                        <span class="ms-3"><b>DTU - Đại Học Duy Tân Đà Nẵng 2023</b></span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="text-decoration-none text-dark">
+                <div class="container-fluid mt-2 mb-2">
+                    <div class="d-flex align-items-center category rounded py-2" style="width: 90%;">
+                        <img class="ms-2"
+                            src="https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/241183977_4285263818209424_2612642320158919614_n.jpg?stp=c59.0.64.64a_cp0_dst-jpg_p64x64&_nc_cat=108&ccb=1-7&_nc_sid=3be523&_nc_ohc=3g6NFHb1cWIAX_9bo7W&_nc_ht=scontent.fhan2-3.fna&oh=00_AfAaJqrzePwJetMUr7ZZ1xSFvM5G1PuR9IbT-WWhjr559Q&oe=651C8916"
+                            width="8%" alt="">
+                        <span class="ms-3"><b>CHỢ PC GAMING - GEAR 2ND ĐÀ NẴNG</b></span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="text-decoration-none text-dark">
+                <div class="container-fluid mt-2 mb-2">
+                    <div class="d-flex align-items-center category rounded py-2" style="width: 90%;">
+                        <img class="ms-2"
+                            src="https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/231872599_1013096499446409_8878568567491217582_n.jpg?stp=c19.0.64.64a_cp0_dst-jpg_p64x64&_nc_cat=105&ccb=1-7&_nc_sid=3be523&_nc_ohc=2ZP0Ylg-SqAAX9k0tnB&_nc_ht=scontent.fhan2-4.fna&oh=00_AfCIdmzYYlHtVgdooucATlFtgdeMwbZF5mu4EmGAwQpCew&oe=651D3425"
+                            width="8%" alt="">
+                        <span class="ms-3"><b>Sinh viên Duy Tân Đà Nẵng</b></span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="text-decoration-none text-dark">
+                <div class="container-fluid mt-2 mb-2">
+                    <div class="d-flex align-items-center category rounded py-2" style="width: 90%;">
+                        <img class="ms-2"
+                            src="https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/315274924_1094241955308376_7133570935767374608_n.jpg?stp=c6.0.64.64a_cp0_dst-jpg_p64x64&_nc_cat=1&ccb=1-7&_nc_sid=3be523&_nc_ohc=CtKNUyqrfDgAX9bRtEF&_nc_ht=scontent.fhan2-3.fna&oh=00_AfAkw70KMMpGSEndSZ_zisUUZSRQbZtsWKCfbsFOfW9YSQ&oe=651D01C4"
+                            width="8%" alt="">
+                        <span class="ms-3"><b>Phòng trọ Đà Nẵng</b></span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="text-decoration-none text-dark">
+                <div class="container-fluid mt-2 mb-2">
+                    <div class="d-flex align-items-center category rounded py-2" style="width: 90%;">
+                        <img class="ms-2"
+                            src="https://scontent.fhan2-3.fna.fbcdn.net/v/t39.2081-6/115803868_1632927190200218_7726110434222976102_n.png?stp=c5.5.50.50a_dst-png_p56x56&_nc_cat=1&ccb=1-7&_nc_sid=b29aad&_nc_ohc=JfPVtOUewtkAX_RSZMT&_nc_ht=scontent.fhan2-3.fna&oh=00_AfDeBlP0wLt_Z-gCfdyhCROgAhEmvEQTF_dY0D2J6coxTQ&oe=651DAFD8"
+                            width="8%" alt="">
+                        <span class="ms-3"><b>Cờ Caro</b></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <swiper-container class="mySwipe" slides-per-view="4" navigation="true" space-between="20"
+                        centered-slides="true" loop="true">
+                        <swiper-slide>
+                            <a href="#">
+                                <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                    width="100%" class="rounded" alt="...">
+                            </a>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <a href="#">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE07RTpAzIaDf5TzlGa7yP8Wz89b7SaYBnmg&usqp=CAU"
+                                    width="100%" height="100%" class="rounded" alt="...">
+                            </a>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <a href="#">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE07RTpAzIaDf5TzlGa7yP8Wz89b7SaYBnmg&usqp=CAU"
+                                    width="100%" height="100%" class="rounded" alt="...">
+                            </a>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <a href="#">
+                                <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                    width="100%" height="100%" class="rounded" alt="...">
+                            </a>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <a href="#">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2guqGx3prADU3MH2rQZetxbqd_RNXZ173A&usqp=CAU"
+                                    width="100%" height="100%" class="rounded" alt="...">
+                            </a>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <a href="#">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWJm7YkuR53TP9u5W6a9Wt_pWbC8JtQPDRcQ&usqp=CAU"
+                                    width="100%" height="100%" class="rounded" alt="...">
+                            </a>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <a href="#">
+                                <img src="https://media.istockphoto.com/id/636379014/photo/hands-forming-a-heart-shape-with-sunset-silhouette.jpg?s=612x612&w=0&k=20&c=CgjWWGEasjgwia2VT7ufXa10azba2HXmUDe96wZG8F0="
+                                    width="100%" height="100%" class="rounded" alt="...">
+                            </a>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <a href="#">
+                                <img src="https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg"
+                                    width="100%" height="100%" class="rounded" alt="...">
+                            </a>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <a href="#">
+                                <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                    width="100%" height="100%" class="rounded" alt="...">
+                            </a>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <a href="#">
+                                <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg"
+                                    width="100%" height="100%" class="rounded" alt="...">
+                            </a>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <a href="#">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9YYh5Fk1u9VsWWr1MhkyQeOzeNbtnnMO96g&usqp=CAU"
+                                    width="100%" height="100%" class="rounded" alt="...">
+                            </a>
+                        </swiper-slide>
+                    </swiper-container>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center w-100">
+                                <div class="rounded-circle mandates py-2 px-3 align-middle me-3 ms-2"
+                                    style="background-color: rgb(228,230,235); width: 38px; height: 38px; position: relative; overflow: hidden;">
+                                    <a href="#"> <img style="position: absolute; left: 0; top:0; scale: 1.2;"
+                                            src="https://scontent.fhan20-1.fna.fbcdn.net/v/t39.30808-6/254126749_940952320167144_7907103038249429186_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=mLvoQUVy9_gAX-fdHd9&_nc_ht=scontent.fhan20-1.fna&oh=00_AfARGyNzLFFR2PRcq4nDI7O8O8UpmuP4buAf4j5PCbV7dQ&oe=651B01AC"
+                                            alt="" width="100%" height="100%"></a>
+                                </div>
+                                <input type="text" name="" id=""
+                                    class="form-control border bg-gray shadow-none rounded-pill fs-6 py"
+                                    placeholder="Trọng ơi , bạn đang nghĩ gì thế">
+                            </div>
+                            <div class="col-md-12">
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <a href="" class="text-decoration-none text-dark">
+                                            <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/v1iF2605Cb5.png"
+                                                class="me-2" alt="" width="10%">
+                                            <span class="align-middle">Video trực tiếp</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="" class="text-decoration-none text-dark">
+                                            <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/a6OjkIIE-R0.png"
+                                                class="me-2" alt="" width="10%">
+                                            <span class="align-middle">Ảnh/video</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="" class="text-decoration-none text-dark">
+                                            <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/yMDS19UDsWe.png"
+                                                class="me-2" alt="" width="10%">
+                                            <span class="align-middle">Cảm xúc/hoạt động</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider main container -->
+
+
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- link script swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
