@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 92%;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -22,7 +26,7 @@ nav {
     background-color: rgba(228, 230, 235, 0.162);
 }
 
-.mandates:hover{
+.mandates:hover {
     background-color: rgba(0, 0, 0, 0.196);
 }
 
@@ -31,6 +35,7 @@ nav {
     width: 40px;
     height: 40px;
     position: relative;
+    opacity: 0.6;
     overflow: hidden;
 }
 
@@ -38,10 +43,10 @@ nav {
     position: absolute;
     left: 0;
     top: 0;
-    opacity: 0.6;
+
 }
 
-.avatar:hover{
+.avatar:hover {
     opacity: 1;
 }
 
@@ -54,8 +59,21 @@ nav {
 }
 
 
-
-
-.category:hover{
-    background-color: red;
+.categorys {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+.category {
+    display: inline;
+    /* Hiển thị văn bản trên cùng 1 dòng */
+    text-overflow: ellipsis;
+    /* Hiển thị dấu "..." khi nội dung bị cắt bớt */
+}
+
+.category:hover {
+    background-color: rgb(228, 230, 235);
+    cursor: pointer;
+}
+
