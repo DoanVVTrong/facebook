@@ -14,7 +14,7 @@ body {
 
 nav {
     background-color: white;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.199);
 }
 
 
@@ -28,6 +28,7 @@ nav {
 
 .mandates:hover {
     background-color: rgba(0, 0, 0, 0.196);
+    cursor: pointer;
 }
 
 .avatar {
@@ -59,18 +60,6 @@ nav {
 }
 
 
-.categorys {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.category {
-    display: inline;
-    /* Hiển thị văn bản trên cùng 1 dòng */
-    text-overflow: ellipsis;
-    /* Hiển thị dấu "..." khi nội dung bị cắt bớt */
-}
 
 .category:hover {
     background-color: rgb(228, 230, 235);
