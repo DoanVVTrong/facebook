@@ -1,7 +1,8 @@
 
 
 // var seeMore = document.querySelector('.see-more');
-var shortCut = document.querySelector('#shortcut')
+var valuemenu = document.querySelector('.value-menu').textContent;
+console.log(valuemenu);
 var contentShortCut = "";
 var contentSlide = "";
 var contentPoster = "";
@@ -146,7 +147,6 @@ $(data).each(function (key, value) {
     contentPoster = contentPoster + ' </div>';
 
 });
-
 
 
 

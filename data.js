@@ -58,7 +58,7 @@ var data = [
         'friend': '2,3,4,5',
         'count_follow': '1000',
         'about': 'Tui là Minh Tuấn',
-        'avatar': 'https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-1/366670743_1504730726732988_8894476486680721584_n.jpg?stp=dst-jpg_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=qj0DWeBr16wAX8xhm75&_nc_ht=scontent.fdad3-4.fna&oh=00_AfAXyV2i7BjCsU6DxXbwGzmnnS9FCG8t-t2CRbeSWScYtg&oe=64DFAEC6',
+        'avatar': 'https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/291810355_1256613138211416_3761685381270420263_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5614bc&_nc_ohc=NuG-c8DamXAAX_qtr3a&_nc_ht=scontent.fdad1-1.fna&oh=00_AfAe5DjSGqJbEHjMmg7ZoCTMpkMe5_FFhKkrywmmItTdEw&oe=6522D0CB',
     },
     {
         'firstname': 'Mai',
