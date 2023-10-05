@@ -1,122 +1,156 @@
 
 
-var shortcut_page = [
-    {
-        'hinh_anh': 'http://127.0.0.1:5500/images/daihocduytan.jpg',
-        'tieu_de_trang': 'DTU - Đại Học Duy Tân Đà Nẵng 2023'
-    },
-    {
-        'hinh_anh': 'http://127.0.0.1:5500/images/phongtrodanang.jpg',
-        'tieu_de_trang': 'CHỢ PC GAMING - GEAR 2ND ĐÀ NẴNG'
-    },
-    {
-        'hinh_anh': 'https://scontent.fdad3-6.fna.fbcdn.net/v/t39.30808-6/315274924_1094241955308376_7133570935767374608_n.jpg?stp=c6.0.64.64a_cp0_dst-jpg_p64x64&_nc_cat=1&ccb=1-7&_nc_sid=3be523&_nc_ohc=CV6tavenCm8AX-KaERp&_nc_ht=scontent.fdad3-6.fna&oh=00_AfDTRKvVb6Ui4kasTyynw9lTlkbaM2dJ59qzk_KeGn9Ysg&oe=6522F084',
-        'tieu_de_trang': 'Sinh viên Duy Tân Đà Nẵng'
-    },
-    {
-        'hinh_anh': 'http://127.0.0.1:5500/images/phongtrodannang.jpg',
-        'tieu_de_trang': 'Phòng trọ Đà Nẵng'
-    },
-    {
-        'hinh_anh': 'https://scontent.fhan2-3.fna.fbcdn.net/v/t39.2081-6/115803868_1632927190200218_7726110434222976102_n.png?stp=c5.5.50.50a_dst-png_p56x56&_nc_cat=1&ccb=1-7&_nc_sid=b29aad&_nc_ohc=JfPVtOUewtkAX_RSZMT&_nc_ht=scontent.fhan2-3.fna&oh=00_AfDeBlP0wLt_Z-gCfdyhCROgAhEmvEQTF_dY0D2J6coxTQ&oe=651DAFD8',
-        'tieu_de_trang': 'Cờ Caro'
-    },
-    {
-        'hinh_anh': 'https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/310274620_182329834309683_189006801584307188_n.jpg?stp=c34.0.64.64a_cp0_dst-jpg_p64x64&_nc_cat=101&ccb=1-7&_nc_sid=3be523&_nc_ohc=39ODu2nHzH0AX9pBBCT&_nc_ht=scontent.fdad3-4.fna&oh=00_AfBzymPR492Ny-jG1oXczz12RRxIxXr69AzNUzRsEJshYA&oe=652298E3',
-        'tieu_de_trang': 'PHÒNG TRỌ ĐÀ NẴNG GIÁ RẺ'
-    },
-    {
-        'hinh_anh': 'https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/341322652_205376498868218_4593150216512516633_n.jpg?stp=c25.0.64.64a_cp0_dst-jpg_p64x64&_nc_cat=110&ccb=1-7&_nc_sid=3be523&_nc_ohc=SBjsdCnAXuUAX_uBtnU&_nc_ht=scontent.fdad3-1.fna&oh=00_AfC1Bf64P6l99Y6-k8id8ZNlrOg8q9xgVwFqvhW45tZw-w&oe=6522A90D',
-        'tieu_de_trang': 'VIỆC LÀM - ĐÀ NẴNG'
-    },
-    {
-        'hinh_anh': 'https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/313209665_526415922829139_1931573599479211662_n.png?stp=c25.0.64.64a_cp0_dst-png_p64x64&_nc_cat=107&ccb=1-7&_nc_sid=3be523&_nc_ohc=vP8jlGpRzUkAX_4VW7H&_nc_ht=scontent.fdad3-4.fna&oh=00_AfBWoML5dK3GXMEt2M-9kOUSNziOhGEpupE-alqTlqnZtA&oe=6522BEA8',
-        'tieu_de_trang': 'Học lập trình web (F8 - Fullstack.edu.vn)'
-    },
-    {
-        'hinh_anh': 'https://scontent.fdad3-1.fna.fbcdn.net/v/t1.6435-9/166828405_1884571921709660_867543459382074909_n.jpg?stp=c26.0.64.64a_cp0_dst-jpg_p64x64&_nc_cat=103&ccb=1-7&_nc_sid=ac9ee4&_nc_ohc=a4vGozGd8SUAX8xOylc&_nc_ht=scontent.fdad3-1.fna&oh=00_AfBDMQenxUrwQ6qPFcbE0O0dNhO_kvSDFsjkeM0tt-NQlQ&oe=654511BF',
-        'tieu_de_trang': 'Làm thuê đồ án - Đồ án tốt nghiệp - Code thuê đồ án'
-    },
-    {
-        'hinh_anh': 'https://scontent.fdad3-6.fna.fbcdn.net/v/t39.30808-6/348984604_231452436186672_8174797555701630279_n.jpg?stp=c41.0.64.64a_cp0_dst-jpg_p64x64&_nc_cat=100&ccb=1-7&_nc_sid=3be523&_nc_ohc=iqZs5pjG-MYAX8esXtj&_nc_ht=scontent.fdad3-6.fna&oh=00_AfBCacxPk9Vf-w2ph0nrrxoMbjE1OmKyYqBiwGShC_0-Ew&oe=65221D85',
-        'tieu_de_trang': 'Thực tập IT Đà Nẵng - Việc làm CNTT Đà Nẵng'
-    },
-    {
-        'hinh_anh': 'https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/240655429_4059163764195718_3652059374269714525_n.jpg?stp=c35.0.64.64a_cp0_dst-jpg_p64x64&_nc_cat=108&ccb=1-7&_nc_sid=3be523&_nc_ohc=z9TliGgM7toAX-8jf_O&_nc_ht=scontent.fdad3-1.fna&oh=00_AfD3AkpQwmn1UMgPNt9QNwBbyEZ1tK7rPMxTRKZA775h9A&oe=6522EC0E',
-        'tieu_de_trang': 'Cộng đồng Front-end(HTML/CSS/JS) Việt Nam'
-    },
-
-];
-
-var data = [
-    {
-        'firstname': 'Lê',
-        'lastname': 'Minh Tuấn',
-        'username': 'minhtuan2003',
-        'password': '123',
-        'email': 'sliverknight4869@gmail.com',
-        'phone': '0982038201',
-        'dateofbirth': '30/10/2003',
-        'friend': '2,3,4,5',
-        'count_follow': '1000',
-        'about': 'Tui là Minh Tuấn',
-        'avatar': 'https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-1/366670743_1504730726732988_8894476486680721584_n.jpg?stp=dst-jpg_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=qj0DWeBr16wAX8xhm75&_nc_ht=scontent.fdad3-4.fna&oh=00_AfAXyV2i7BjCsU6DxXbwGzmnnS9FCG8t-t2CRbeSWScYtg&oe=64DFAEC6',
-    },
-    {
-        'firstname': 'Mai',
-        'lastname': 'Phước Đức',
-        'username': 'phuocduc2003',
-        'password': '12345',
-        'email': 'phuocduc2003@gmail.com',
-        'phone': '0982738492',
-        'dateofbirth': '05/05/2003',
-        'friend': '1,3,4,5',
-        'count_follow': '500',
-        'about': 'Tui là Đức Đây',
-        'avatar': 'https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-1/361588931_1605924319900402_4153018101253254393_n.jpg?stp=dst-jpg_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=QjgJ9ZMB-LsAX9IFphs&_nc_ht=scontent.fdad3-4.fna&oh=00_AfBDtdDQ3ey6zyN6IM1ZJSi8_lbRdd2KFdEhsBQitF89TA&oe=64E1171C',
-    }, {
-        'firstname': 'Huỳnh',
-        'lastname': 'Huy Hoàng',
-        'username': 'huyhoang2003',
-        'password': '321',
-        'email': 'huyhoang2003@gmail.com',
-        'phone': '0827384923',
-        'dateofbirth': '09/08/2003',
-        'friend': '2,1,4,5',
-        'count_follow': '900',
-        'about': 'Tui là Hoàng đây',
-        'avatar': 'https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-1/366380399_668772025157259_2104538913295486493_n.jpg?stp=dst-jpg_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=5u2Wa3iWptoAX-kJUhJ&_nc_ht=scontent.fdad3-4.fna&oh=00_AfAxzBBpnVFB6Dit2BuT8zVRW70DJ9hNSWewxS6ToO2n-g&oe=64E00790',
-    }, {
-        'firstname': 'Phan',
-        'lastname': 'Trần Thiện Ân',
-        'username': 'thienan2003',
-        'password': '12345',
-        'email': 'thienan2003@gmail.com',
-        'phone': '09823748762',
-        'dateofbirth': '01/01/2003',
-        'friend': '2,3,1,5',
-        'count_follow': '700',
-        'about': 'Tui là Thiện Ân đây',
-        'avatar': 'https://scontent.fdad3-1.fna.fbcdn.net/v/t1.30497-1/143086968_2856368904622192_1959732218791162458_n.png?_nc_cat=1&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=-tIpWnFaNRwAX93Vkst&_nc_ht=scontent.fdad3-1.fna&oh=00_AfAZNfwMtzzcu6DFnes7xjGKHlaepDBjaSsMGGzNW3aj-Q&oe=6502AE78',
-    },
-];
-
-var seeMore = document.querySelector('.see-more');
+// var seeMore = document.querySelector('.see-more');
 var shortCut = document.querySelector('#shortcut')
-
 var contentShortCut = "";
+var contentSlide = "";
+var contentPoster = "";
 
-
-$(shortcut_page).each(function (index, value) {
+$(shortcut_page).each(function (key, value) {
     contentShortCut = contentShortCut + '<a href="#" class="text-decoration-none text-dark">';
     contentShortCut = contentShortCut + ' <div class=" mt-2 mb-2 categorys">';
     contentShortCut = contentShortCut + '<div class="d-flex align-items-center category rounded py-2" style="width: 100%;">';
-    contentShortCut = contentShortCut + '<img class="ms-2" src="'+value.hinh_anh+'" width="8%" alt="">';
-    contentShortCut = contentShortCut + '<span class="ms-3"><b>'+value.tieu_de_trang+'</b></span>';
+    contentShortCut = contentShortCut + '<img class="ms-2" src="' + value.hinh_anh + '" width="8%" alt="">';
+    contentShortCut = contentShortCut + '<span class="ms-3"><b>' + value.tieu_de_trang + '</b></span>';
     contentShortCut = contentShortCut + '</div>';
     contentShortCut = contentShortCut + '</div>';
     contentShortCut = contentShortCut + '</a>';
 });
 
+$(slides).each(function (key, value) {
+    contentSlide = contentSlide + '<swiper-slide>';
+    contentSlide = contentSlide + ' <a href="#">';
+    contentSlide = contentSlide + '<img src="' + value.hinh_anh + '"';
+    contentSlide = contentSlide + 'width="100%" height="100%" class="rounded-3" alt="...">';
+    contentSlide = contentSlide + '</a>';
+    contentSlide = contentSlide + '</swiper-slide>';
+});
+
+$(data).each(function (key, value) {
+    contentPoster = contentPoster + '<div class="card mb-4">';
+    contentPoster = contentPoster + '<div class="card-body">';
+    contentPoster = contentPoster + '<div class="row">';
+    contentPoster = contentPoster + '<div class="col-md-8 ">';
+    contentPoster = contentPoster + '<div class="d-flex">';
+    contentPoster = contentPoster + '<a class="me-2" href="" style="width: 10%;">';
+    contentPoster = contentPoster + ' <img class="border border-2 rounded-circle"';
+    contentPoster = contentPoster + ' src="' + data.avatar + '"';
+    contentPoster = contentPoster + 'alt="" width="100%">';
+    contentPoster = contentPoster + '</a>';
+    contentPoster = contentPoster + '<div class="title">';
+    contentPoster = contentPoster + '<div class="title-head">';
+    contentPoster = contentPoster + ' <b><a href="" class="text-decoration-none text-dark">' + data.firstname + " " + '';
+    contentPoster = contentPoster + ' ' + data.lastname + '</a></b>';
+    contentPoster = contentPoster + ' </div>';
+    contentPoster = contentPoster + '<div class="title-date d-flex align-items-center">';
+    contentPoster = contentPoster + '<p class="m-0 me-2"><a href=""';
+    contentPoster = contentPoster + 'class="text-decoration-none text-dark">8';
+    contentPoster = contentPoster + 'tháng 9 lúc 20:00</a></p>';
+    contentPoster = contentPoster + ' <a href="" class="text-decoration-none text-dark">';
+    contentPoster = contentPoster + '<svg fill="currentColor" viewBox="0 0 16 16" width="1em"';
+    contentPoster = contentPoster + ' height="1em"';
+    contentPoster = contentPoster + ' class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 x1kpxq89 xsmyaan"';
+    contentPoster = contentPoster + ' title="Đã chia sẻ với Công khai">';
+    contentPoster = contentPoster + '<title>Đã chia sẻ với Công khai</title>';
+    contentPoster = contentPoster + ' <g fill-rule="evenodd" transform="translate(-448 -544)">';
+    contentPoster = contentPoster + ' <g>';
+    contentPoster = contentPoster + ' <path';
+    contentPoster = contentPoster + ' d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434"';
+    contentPoster = contentPoster + 'transform="translate(354 143.5)"></path>';
+    contentPoster = contentPoster + '<path';
+    contentPoster = contentPoster + ' d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096"';
+    contentPoster = contentPoster + ' transform="translate(354 143.5)"></path>';
+    contentPoster = contentPoster + ' <path fill-rule="nonzero"';
+    contentPoster = contentPoster + 'd="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z"';
+    contentPoster = contentPoster + ' transform="translate(354 143.5)"></path>';
+    contentPoster = contentPoster + ' </g>';
+    contentPoster = contentPoster + ' </g>';
+    contentPoster = contentPoster + '</svg>';
+    contentPoster = contentPoster + '</a>';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + ' <div class="col-md-4 fs-3 d-flex align-items-center justify-content-end">';
+    contentPoster = contentPoster + '<a href="" class="text-decoration-none text-dark">';
+    contentPoster = contentPoster + '<svg fill="currentColor" viewBox="0 0 20 20" width="1em" height="1em"';
+    contentPoster = contentPoster + 'class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 x1qx5ct2 xw4jnvo">';
+    contentPoster = contentPoster + ' <g fill-rule="evenodd" transform="translate(-446 -350)">';
+    contentPoster = contentPoster + ' <path';
+    contentPoster = contentPoster + ' d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0">';
+    contentPoster = contentPoster + ' </path>';
+    contentPoster = contentPoster + '  </g>';
+    contentPoster = contentPoster + ' </svg>';
+    contentPoster = contentPoster + '</a>';
+    contentPoster = contentPoster + '<a href="" class="text-decoration-none text-dark">';
+    contentPoster = contentPoster + ' <i class="fa-solid fa-xmark ms-3"></i>';
+    contentPoster = contentPoster + ' </a>';
+    contentPoster = contentPoster + ' </div>';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + '<div class="row">';
+    contentPoster = contentPoster + '<div class="descripton">';
+    contentPoster = contentPoster + '<p class="m-0">set tn sm namec</p>';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + ' <img src="https://fptshop.com.vn/landing-back-to-school/des/images/game-pc.png?v=011020231750"';
+    contentPoster = contentPoster + 'alt="" width="100%">';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + '<div class="row mt-3">';
+    contentPoster = contentPoster + ' <div class="col-md-6">';
+    contentPoster = contentPoster + ' <a href=""';
+    contentPoster = contentPoster + ' class="text-decoration-none text-dark d-flex align-items-center fs-5">';
+    contentPoster = contentPoster + '<img src="data:image/svg+xml,%3Csvg fill=\'none\' xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 16 16\'%3E%3Cpath d=\'M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z\' fill=\'url(%23paint0_linear_15251_63610)\'/%3E%3Cpath d=\'M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z\' fill=\'url(%23paint1_radial_15251_63610)\'/%3E%3Cpath d=\'M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z\' fill=\'url(%23paint2_radial_15251_63610)\' fill-opacity=\'.5\'/%3E%3Cpath d=\'M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.9920 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z\' fill=\'%23fff\'/%3E%3Cdefs%3E%3CradialGradient id=\'paint1_radial_15251_63610\' cx=\'0\' cy=\'0\' r=\'1\' gradientUnits=\'userSpaceOnUse\' gradientTransform=\'rotate(90 .0005 8) scale(7.99958)\'%3E%3Cstop offset=\'.5618\' stop-color=\'%230866FF\' stop-opacity=\'0\'/%3E%3Cstop offset=\'1\' stop-color=\'%230866FF\' stop-opacity=\'.1\'/%3E%3C/radialGradient%3E%3CradialGradient id=\'paint2_radial_15251_63610\' cx=\'0\' cy=\'0\' r=\'1\' gradientUnits=\'user';
+    contentPoster = contentPoster + 'alt="" width="7%">';
+    contentPoster = contentPoster + ' <p class="m-0 ms-2">74K</p>';
+    contentPoster = contentPoster + '  </a>';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + ' <div class="col-md-6 text-end">';
+    contentPoster = contentPoster + '  <div class="row">';
+    contentPoster = contentPoster + '<div class="col-md-12 d-flex align-items-center justify-content-end">';
+    contentPoster = contentPoster + ' <div class="d-flex align-items-center me-4 fs-5">';
+    contentPoster = contentPoster + ' <p class="m-0 me-2">5,9K</p>';
+    contentPoster = contentPoster + '<i class="fa-solid fa-comment"></i>';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + ' <div class="d-flex align-items-center fs-5">';
+    contentPoster = contentPoster + ' <p class="m-0 me-2">2,9K</p>';
+    contentPoster = contentPoster + '<i class="fa-solid fa-share"></i>';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + ' </div>';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + ' <hr>';
+    contentPoster = contentPoster + '<div class="row">';
+    contentPoster = contentPoster + '<div class="col-md-4">';
+    contentPoster = contentPoster + '<a href=""';
+    contentPoster = contentPoster + ' class="text-decoration-none text-dark d-flex align-items-center justify-content-center fs-5">';
+    contentPoster = contentPoster + ' <i class="fa-regular fa-thumbs-up"></i>';
+    contentPoster = contentPoster + ' <p class="m-0 ms-2">74K</p>';
+    contentPoster = contentPoster + '</a>';
+    contentPoster = contentPoster + ' </div>';
+    contentPoster = contentPoster + '  <div class="col-md-4">';
+    contentPoster = contentPoster + '<a href=""';
+    contentPoster = contentPoster + 'class="text-decoration-none text-dark d-flex align-items-center justify-content-center fs-5">';
+    contentPoster = contentPoster + '<i class="fa-regular fa-comment"></i>';
+    contentPoster = contentPoster + ' <p class="m-0 ms-2">Bình luận</p>';
+    contentPoster = contentPoster + ' </a>';
+    contentPoster = contentPoster + ' </div>';
+    contentPoster = contentPoster + ' <div class="col-md-4">';
+    contentPoster = contentPoster + '  <a href=""';
+    contentPoster = contentPoster + ' class="text-decoration-none text-dark d-flex align-items-center justify-content-center fs-5">';
+    contentPoster = contentPoster + ' <i class="fa-solid fa-share"></i>';
+    contentPoster = contentPoster + '  <p class="m-0 ms-2">Chia sẽ</p>';
+    contentPoster = contentPoster + '  </a>';
+    contentPoster = contentPoster + ' </div>';
+    contentPoster = contentPoster + ' </div>';
+    contentPoster = contentPoster + ' </div>';
+    contentPoster = contentPoster + ' </div>';
+
+});
+
+
+
+
 $('#shortcut').html(contentShortCut);
+$('.mySwipe').html(contentSlide);
+$('.posterContent').html(contentPoster);
 
