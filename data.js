@@ -8,7 +8,7 @@ var shortcut_page = [
         'tieu_de_trang': 'CHỢ PC GAMING - GEAR 2ND ĐÀ NẴNG'
     },
     {
-        'hinh_anh': 'https://scontent.fdad3-6.fna.fbcdn.net/v/t39.30808-6/315274924_1094241955308376_7133570935767374608_n.jpg?stp=c6.0.64.64a_cp0_dst-jpg_p64x64&_nc_cat=1&ccb=1-7&_nc_sid=3be523&_nc_ohc=CV6tavenCm8AX-KaERp&_nc_ht=scontent.fdad3-6.fna&oh=00_AfDTRKvVb6Ui4kasTyynw9lTlkbaM2dJ59qzk_KeGn9Ysg&oe=6522F084',
+        'hinh_anh': 'https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/231872599_1013096499446409_8878568567491217582_n.jpg?stp=c19.0.64.64a_cp0_dst-jpg_p64x64&_nc_cat=105&ccb=1-7&_nc_sid=3be523&_nc_ohc=Tnjl9tskhh8AX_frpcn&_nc_ht=scontent.fdad1-4.fna&oh=00_AfBGT52g8yTMsryy7dXH4IOC3euO7A74bqurlX-ZGc3aDA&oe=652322E5',
         'tieu_de_trang': 'Sinh viên Duy Tân Đà Nẵng'
     },
     {
@@ -48,19 +48,6 @@ var shortcut_page = [
 
 var data = [
     {
-        'firstname': 'Lê',
-        'lastname': 'Minh Tuấn',
-        'username': 'minhtuan2003',
-        'password': '123',
-        'email': 'sliverknight4869@gmail.com',
-        'phone': '0982038201',
-        'dateofbirth': '30/10/2003',
-        'friend': '2,3,4,5',
-        'count_follow': '1000',
-        'about': 'Tui là Minh Tuấn',
-        'avatar': 'https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/291810355_1256613138211416_3761685381270420263_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5614bc&_nc_ohc=NuG-c8DamXAAX_qtr3a&_nc_ht=scontent.fdad1-1.fna&oh=00_AfAe5DjSGqJbEHjMmg7ZoCTMpkMe5_FFhKkrywmmItTdEw&oe=6522D0CB',
-    },
-    {
         'firstname': 'Mai',
         'lastname': 'Phước Đức',
         'username': 'phuocduc2003',
@@ -70,8 +57,12 @@ var data = [
         'dateofbirth': '05/05/2003',
         'friend': '1,3,4,5',
         'count_follow': '500',
+        'like': '5K',
+        'comment': '83',
+        'share': '9',
         'about': 'Tui là Đức Đây',
-        'avatar': 'https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-1/361588931_1605924319900402_4153018101253254393_n.jpg?stp=dst-jpg_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=QjgJ9ZMB-LsAX9IFphs&_nc_ht=scontent.fdad3-4.fna&oh=00_AfBDtdDQ3ey6zyN6IM1ZJSi8_lbRdd2KFdEhsBQitF89TA&oe=64E1171C',
+        'avatar': 'https://i0.wp.com/thatnhucuocsong.com.vn/wp-content/uploads/2023/02/Hinh-anh-avatar-Facebook.jpg?resize=800%2C800&ssl=1',
+        'images': 'https://kenh14cdn.com/thumb_w/660/2020/7/17/brvn-15950048783381206275371.jpg',
     }, {
         'firstname': 'Huỳnh',
         'lastname': 'Huy Hoàng',
@@ -82,8 +73,13 @@ var data = [
         'dateofbirth': '09/08/2003',
         'friend': '2,1,4,5',
         'count_follow': '900',
+        'like': '9K',
+        'comment': '83',
+        'share': '9',
         'about': 'Tui là Hoàng đây',
-        'avatar': 'https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-1/366380399_668772025157259_2104538913295486493_n.jpg?stp=dst-jpg_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=5u2Wa3iWptoAX-kJUhJ&_nc_ht=scontent.fdad3-4.fna&oh=00_AfAxzBBpnVFB6Dit2BuT8zVRW70DJ9hNSWewxS6ToO2n-g&oe=64E00790',
+        'avatar': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGoTty5bRTdOe6hTtK1_jHJWE2fwUbtpcf-ktzdXg&s',
+        'images': 'https://kenh14cdn.com/thumb_w/660/2020/7/17/brvn-15950048783381206275371.jpg'
+
     }, {
         'firstname': 'Phan',
         'lastname': 'Trần Thiện Ân',
@@ -94,20 +90,62 @@ var data = [
         'dateofbirth': '01/01/2003',
         'friend': '2,3,1,5',
         'count_follow': '700',
+        'like': '7K',
+        'comment': '83',
+        'share': '9',
         'about': 'Tui là Thiện Ân đây',
-        'avatar': 'https://scontent.fdad3-1.fna.fbcdn.net/v/t1.30497-1/143086968_2856368904622192_1959732218791162458_n.png?_nc_cat=1&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=-tIpWnFaNRwAX93Vkst&_nc_ht=scontent.fdad3-1.fna&oh=00_AfAZNfwMtzzcu6DFnes7xjGKHlaepDBjaSsMGGzNW3aj-Q&oe=6502AE78',
+        'avatar': 'https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-1/337993755_947020476497141_3879053436557991959_n.jpg?stp=dst-jpg_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=fe8171&_nc_ohc=seiZtvcA8rUAX_G1q_I&_nc_ht=scontent.fdad1-3.fna&oh=00_AfCV5V1RhqWVLUUB2iXNfjTBOsiZKfc_3DX3OU54j1Em8w&oe=65234BE7',
+        'images': 'https://kenh14cdn.com/thumb_w/660/2020/7/17/brvn-15950048783381206275371.jpg'
+
     },
 ];
 
 var slides = [
-    {'hinh_anh' : 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg'},
-    {'hinh_anh' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE07RTpAzIaDf5TzlGa7yP8Wz89b7SaYBnmg&usqp=CAU'},
-    {'hinh_anh' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE07RTpAzIaDf5TzlGa7yP8Wz89b7SaYBnmg&usqp=CAU'},
-    {'hinh_anh' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWJm7YkuR53TP9u5W6a9Wt_pWbC8JtQPDRcQ&usqp=CAU'},
-    {'hinh_anh' : 'https://media.istockphoto.com/id/636379014/photo/hands-forming-a-heart-shape-with-sunset-silhouette.jpg?s=612x612&w=0&k=20&c=CgjWWGEasjgwia2VT7ufXa10azba2HXmUDe96wZG8F0='},
-    {'hinh_anh' : 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg'},
-    {'hinh_anh' : 'https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'},
-    {'hinh_anh' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE07RTpAzIaDf5TzlGa7yP8Wz89b7SaYBnmg&usqp=CAU'},
-    {'hinh_anh' : 'https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg'},
-    {'hinh_anh' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9YYh5Fk1u9VsWWr1MhkyQeOzeNbtnnMO96g&usqp=CAU'},
+    { 'hinh_anh': 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg' },
+    { 'hinh_anh': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE07RTpAzIaDf5TzlGa7yP8Wz89b7SaYBnmg&usqp=CAU' },
+    { 'hinh_anh': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE07RTpAzIaDf5TzlGa7yP8Wz89b7SaYBnmg&usqp=CAU' },
+    { 'hinh_anh': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWJm7YkuR53TP9u5W6a9Wt_pWbC8JtQPDRcQ&usqp=CAU' },
+    { 'hinh_anh': 'https://media.istockphoto.com/id/636379014/photo/hands-forming-a-heart-shape-with-sunset-silhouette.jpg?s=612x612&w=0&k=20&c=CgjWWGEasjgwia2VT7ufXa10azba2HXmUDe96wZG8F0=' },
+    { 'hinh_anh': 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg' },
+    { 'hinh_anh': 'https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' },
+    { 'hinh_anh': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE07RTpAzIaDf5TzlGa7yP8Wz89b7SaYBnmg&usqp=CAU' },
+    { 'hinh_anh': 'https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg' },
+    { 'hinh_anh': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9YYh5Fk1u9VsWWr1MhkyQeOzeNbtnnMO96g&usqp=CAU' },
+]
+
+var advertisement = [
+    {
+        'advertisement_img': 'https://scontent.fdad1-4.fna.fbcdn.net/v/t45.1600-4/353486184_23855355475450578_2425244548344683157_n.jpg?stp=cp0_dst-jpg_p296x100_q75_spS444&_nc_cat=105&ccb=1-7&_nc_sid=67cdda&_nc_ohc=U997KNg_eawAX-PiyND&_nc_ht=scontent.fdad1-4.fna&oh=00_AfDVt4sZjLtPCO8jtvizw7aPXYwoS1N-Q_p7X05cKgzsdg&oe=6523A08B',
+        'advertisement_content': 'Tặng ngay bộ tướng SSSR',
+        'advertisement_link': 'https://hoachianhhung.vn'
+    },
+    {
+        'advertisement_img': 'https://scontent.fdad2-1.fna.fbcdn.net/v/t45.1600-4/377347465_23860996286190269_4393959207882515824_n.jpg?stp=c0.4.296.296a_cp0_dst-jpg_p296x100_q75_spS444&_nc_cat=108&ccb=1-7&_nc_sid=67cdda&_nc_ohc=93xQ3fQZmQYAX_ZphuC&_nc_ht=scontent.fdad2-1.fna&oh=00_AfCTbJmlQuY-hkpgKn81RmueiJA1vuqli3P7WnudaET2VQ&oe=6523A010',
+        'advertisement_content': 'Ưu đãi 20% học phí khóa Motion Graphics',
+        'advertisement_link': 'https://horusacademy.vn/chi-tiet/motion-graphics/'
+    },
+    {
+        'advertisement_img': 'https://scontent.fdad1-2.fna.fbcdn.net/v/t45.1600-4/384841470_120203440123400456_5237287421480145720_n.png?stp=dst-png_p285x285&_nc_cat=1&ccb=1-7&_nc_sid=eac8f0&_nc_ohc=tNYCL_2LbdoAX8mSblx&_nc_ht=scontent.fdad1-2.fna&oh=00_AfC24DUk2GqPge6AZ5mrJnuaFl97MCCESSrLufGxIHrAig&oe=652382A9',
+        'advertisement_content': '[KOI THÉ ƯU ĐÃI ĐỘC QUYỀN GIẢM 50.000Đ ĐƠN 100,000]',
+        'advertisement_link': 'shopeefoodvn.onelink.me'
+    },
+];
+
+var contacts = [
+    {
+        'hinh_anh' : 'https://i0.wp.com/thatnhucuocsong.com.vn/wp-content/uploads/2023/02/Hinh-anh-avatar-Facebook.jpg?resize=800%2C800&ssl=1',
+        'name' : 'Mai Phước Đức'
+    },
+    {
+        'hinh_anh' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGoTty5bRTdOe6hTtK1_jHJWE2fwUbtpcf-ktzdXg&s',
+        'name' : 'Huỳnh  Huy Hoàng'
+    },
+    {
+        'hinh_anh' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3yicKvW-5AYWpKjDcmnBAi6ZGylLcS95fWjYloIYEYdxZcQ4Qv3m7skBswhg5aPDYdLY&usqp=CAU',
+        'name' : 'Minh Tuấn'
+    },
+    {
+        'hinh_anh' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUMQ6l0AbOKftjleK8PhXzV-GPfxm_tmcI-kcuGt7hHA&s',
+        'name' : 'Phan  Trần Thiện Ân'
+    },
 ]

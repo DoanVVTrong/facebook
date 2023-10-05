@@ -1,11 +1,11 @@
 
 
 // var seeMore = document.querySelector('.see-more');
-var valuemenu = document.querySelector('.value-menu').textContent;
-console.log(valuemenu);
 var contentShortCut = "";
 var contentSlide = "";
 var contentPoster = "";
+var contentAdvertisement = "";
+var contentContact = "";
 
 $(shortcut_page).each(function (key, value) {
     contentShortCut = contentShortCut + '<a href="#" class="text-decoration-none text-dark">';
@@ -33,20 +33,19 @@ $(data).each(function (key, value) {
     contentPoster = contentPoster + '<div class="row">';
     contentPoster = contentPoster + '<div class="col-md-8 ">';
     contentPoster = contentPoster + '<div class="d-flex">';
-    contentPoster = contentPoster + '<a class="me-2" href="" style="width: 10%;">';
-    contentPoster = contentPoster + ' <img class="border border-2 rounded-circle"';
-    contentPoster = contentPoster + ' src="' + data.avatar + '"';
-    contentPoster = contentPoster + 'alt="" width="100%">';
+    contentPoster = contentPoster + ' <div class="rounded-circle mandates py-2 px-3 align-middle me-2 ms-0" style="background-color: rgb(228,230,235); width: 38px; height: 38px; position: relative; overflow: hidden;">';
+    contentPoster = contentPoster + '<img style="position: absolute; left: 0; top:0; scale: 1.2;  object-fit: contain;" src="' + value.avatar + '" alt="" width="100%" height="100%">';
+    contentPoster = contentPoster + '</div>';
     contentPoster = contentPoster + '</a>';
     contentPoster = contentPoster + '<div class="title">';
     contentPoster = contentPoster + '<div class="title-head">';
-    contentPoster = contentPoster + ' <b><a href="" class="text-decoration-none text-dark">' + data.firstname + " " + '';
-    contentPoster = contentPoster + ' ' + data.lastname + '</a></b>';
+    contentPoster = contentPoster + ' <b><a href="" class="text-decoration-none text-dark">' + value.firstname + " " + '';
+    contentPoster = contentPoster + ' ' + value.lastname + '</a></b>';
     contentPoster = contentPoster + ' </div>';
     contentPoster = contentPoster + '<div class="title-date d-flex align-items-center">';
     contentPoster = contentPoster + '<p class="m-0 me-2"><a href=""';
-    contentPoster = contentPoster + 'class="text-decoration-none text-dark">8';
-    contentPoster = contentPoster + 'tháng 9 lúc 20:00</a></p>';
+    contentPoster = contentPoster + 'class="text-decoration-none text-dark">5 ';
+    contentPoster = contentPoster + 'tháng 10 lúc 20:00</a></p>';
     contentPoster = contentPoster + ' <a href="" class="text-decoration-none text-dark">';
     contentPoster = contentPoster + '<svg fill="currentColor" viewBox="0 0 16 16" width="1em"';
     contentPoster = contentPoster + ' height="1em"';
@@ -89,30 +88,33 @@ $(data).each(function (key, value) {
     contentPoster = contentPoster + ' </div>';
     contentPoster = contentPoster + '</div>';
     contentPoster = contentPoster + '<div class="row">';
-    contentPoster = contentPoster + '<div class="descripton">';
-    contentPoster = contentPoster + '<p class="m-0">set tn sm namec</p>';
+    contentPoster = contentPoster + '<div class="descripton my-1">';
+    contentPoster = contentPoster + '<p class="m-0">' + value.about + '</p>';
     contentPoster = contentPoster + '</div>';
-    contentPoster = contentPoster + ' <img src="https://fptshop.com.vn/landing-back-to-school/des/images/game-pc.png?v=011020231750"';
-    contentPoster = contentPoster + 'alt="" width="100%">';
+    contentPoster = contentPoster + '<div style="height: 600px;">';
+    contentPoster = contentPoster + '<img src="' + value.images + '"';
+    contentPoster = contentPoster + 'alt="" width="100%" height="100%" style="background-size: 100% 100%; object-fit: cover;">';
+    contentPoster = contentPoster + '</div>';
+    contentPoster = contentPoster + '';
+    contentPoster = contentPoster + '';
     contentPoster = contentPoster + '</div>';
     contentPoster = contentPoster + '<div class="row mt-3">';
     contentPoster = contentPoster + ' <div class="col-md-6">';
     contentPoster = contentPoster + ' <a href=""';
     contentPoster = contentPoster + ' class="text-decoration-none text-dark d-flex align-items-center fs-5">';
-    contentPoster = contentPoster + '<img src="data:image/svg+xml,%3Csvg fill=\'none\' xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 16 16\'%3E%3Cpath d=\'M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z\' fill=\'url(%23paint0_linear_15251_63610)\'/%3E%3Cpath d=\'M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z\' fill=\'url(%23paint1_radial_15251_63610)\'/%3E%3Cpath d=\'M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z\' fill=\'url(%23paint2_radial_15251_63610)\' fill-opacity=\'.5\'/%3E%3Cpath d=\'M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.9920 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z\' fill=\'%23fff\'/%3E%3Cdefs%3E%3CradialGradient id=\'paint1_radial_15251_63610\' cx=\'0\' cy=\'0\' r=\'1\' gradientUnits=\'userSpaceOnUse\' gradientTransform=\'rotate(90 .0005 8) scale(7.99958)\'%3E%3Cstop offset=\'.5618\' stop-color=\'%230866FF\' stop-opacity=\'0\'/%3E%3Cstop offset=\'1\' stop-color=\'%230866FF\' stop-opacity=\'.1\'/%3E%3C/radialGradient%3E%3CradialGradient id=\'paint2_radial_15251_63610\' cx=\'0\' cy=\'0\' r=\'1\' gradientUnits=\'user';
-    contentPoster = contentPoster + 'alt="" width="7%">';
-    contentPoster = contentPoster + ' <p class="m-0 ms-2">74K</p>';
+    contentPoster = contentPoster + '<i class="fa-solid fa-thumbs-up fa-1x text-primary"></i>';
+    contentPoster = contentPoster + ' <p class="m-0 ms-2">' + value.like + '</p>';
     contentPoster = contentPoster + '  </a>';
     contentPoster = contentPoster + '</div>';
     contentPoster = contentPoster + ' <div class="col-md-6 text-end">';
     contentPoster = contentPoster + '  <div class="row">';
     contentPoster = contentPoster + '<div class="col-md-12 d-flex align-items-center justify-content-end">';
     contentPoster = contentPoster + ' <div class="d-flex align-items-center me-4 fs-5">';
-    contentPoster = contentPoster + ' <p class="m-0 me-2">5,9K</p>';
+    contentPoster = contentPoster + ' <p class="m-0 me-2 fs-6">' + value.comment + '</p>';
     contentPoster = contentPoster + '<i class="fa-solid fa-comment"></i>';
     contentPoster = contentPoster + '</div>';
     contentPoster = contentPoster + ' <div class="d-flex align-items-center fs-5">';
-    contentPoster = contentPoster + ' <p class="m-0 me-2">2,9K</p>';
+    contentPoster = contentPoster + ' <p class="m-0 me-2 fs-6">' + value.share + '</p>';
     contentPoster = contentPoster + '<i class="fa-solid fa-share"></i>';
     contentPoster = contentPoster + '</div>';
     contentPoster = contentPoster + ' </div>';
@@ -125,7 +127,7 @@ $(data).each(function (key, value) {
     contentPoster = contentPoster + '<a href=""';
     contentPoster = contentPoster + ' class="text-decoration-none text-dark d-flex align-items-center justify-content-center fs-5">';
     contentPoster = contentPoster + ' <i class="fa-regular fa-thumbs-up"></i>';
-    contentPoster = contentPoster + ' <p class="m-0 ms-2">74K</p>';
+    contentPoster = contentPoster + ' <p class="m-0 ms-2">Thích</p>';
     contentPoster = contentPoster + '</a>';
     contentPoster = contentPoster + ' </div>';
     contentPoster = contentPoster + '  <div class="col-md-4">';
@@ -145,6 +147,31 @@ $(data).each(function (key, value) {
     contentPoster = contentPoster + ' </div>';
     contentPoster = contentPoster + ' </div>';
     contentPoster = contentPoster + ' </div>';
+});
+
+$(advertisement).each(function (key, value) {
+    contentAdvertisement = contentAdvertisement + '<div class="advertisement mb-2">';
+    contentAdvertisement = contentAdvertisement + '<a href="" class="d-flex align-items-center text-decoration-none text-dark">';
+    contentAdvertisement = contentAdvertisement + '<img src="' + value.advertisement_img + '" alt="" style="width: 20%">';
+    contentAdvertisement = contentAdvertisement + '<div class="fs-6 ms-3">';
+    contentAdvertisement = contentAdvertisement + '<b>' + value.advertisement_content + '</b>';
+    contentAdvertisement = contentAdvertisement + '<div class="link-website fw-medium text-secondary">' + value.advertisement_link + '</div>';
+    contentAdvertisement = contentAdvertisement + '  </div>';
+    contentAdvertisement = contentAdvertisement + '</a>';
+    contentAdvertisement = contentAdvertisement + '</div>';
+});
+
+$(contacts).each(function (key, value) {
+    contentContact = contentContact + '<a href="#" class="text-decoration-none text-dark">';
+    contentContact = contentContact + '<div class="d-flex align-items-center category rounded py-2" style="width: 100%;">';
+    contentContact = contentContact + '<div class="rounded-circle mandates py-2 px-3 align-middle me-2 ms-2 border"';
+    contentContact = contentContact + 'style="background-color: rgb(228,230,235); width: 38px; height: 38px; position: relative; overflow: hidden;">';
+    contentContact = contentContact + '<img style="position: absolute; left: 0; top:0; scale: 1.2;"';
+    contentContact = contentContact + 'src="'+value.hinh_anh+'" alt="" width="100%" height="100%">';
+    contentContact = contentContact + ' </div>';
+    contentContact = contentContact + ' <span><b>'+value.name+'</b></span>';
+    contentContact = contentContact + ' </div>';
+    contentContact = contentContact + '</a>';
 
 });
 
@@ -153,4 +180,7 @@ $(data).each(function (key, value) {
 $('#shortcut').html(contentShortCut);
 $('.mySwipe').html(contentSlide);
 $('.posterContent').html(contentPoster);
+$('.quang-cao').html(contentAdvertisement);
+$('.contact').html(contentContact);
+
 
